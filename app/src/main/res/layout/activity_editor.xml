@@ -1,0 +1,77 @@
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_title"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Title field -->
+            <EditText
+                android:id="@+id/edit_note_title"
+                android:hint="@string/hint_note_title"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+            <!-- Details field -->
+            <EditText
+                android:id="@+id/edit_note_details"
+                android:hint="@string/hint_note_details"
+                android:inputType="textCapWords|textMultiLine"
+                android:maxLines="10"
+                style="@style/EditorFieldStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Priority category -->
+    <LinearLayout
+        android:id="@+id/container_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_priority"
+            style="@style/CategoryStyle" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <!-- Priority drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_priority"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

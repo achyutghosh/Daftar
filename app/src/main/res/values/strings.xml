@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Daftar</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all_entries">Delete All Notes</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="category_title">Title</string>
+    <string name="hint_note_title">Add title</string>
+    <string name="hint_note_details">Add Details Here</string>
+    <string name="category_priority">Priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="editor_activity_title_new_note">Add a Note</string>
+    <string name="editor_insert_note_failed">Error with saving note</string>
+    <string name="editor_insert_note_successful">Note saved</string>
+    <string name="empty_view_title_text">No notes added yet!</string>
+    <string name="empty_view_subtitle_text">Get started by planing your all day work</string>
+    <string name="editor_activity_title_edit_note">Edit Note</string>
+    <string name="editor_update_note_failed">Error with updating note</string>
+    <string name="editor_update_note_successful">Note updated</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_msg">Delete this note?</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_note_successful">Note deleted</string>
+    <string name="editor_delete_note_failed">Error with deleting note</string>
+    <string name="no_details">No details added yet!</string>
+</resources>
